@@ -3,7 +3,7 @@ package com.jumpjava.array;
 /*
  * Author : JumpJava.com
  * JAVA : 1.7
- * 
+ * Program : Write a Java program to find the index of an array element.
  * */
 
 public class FindIndexOfArrayElement {
