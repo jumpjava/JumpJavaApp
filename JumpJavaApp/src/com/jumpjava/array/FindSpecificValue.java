@@ -1,9 +1,9 @@
 package com.jumpjava.array;
 
 /*
- * Author : JumpJava.com
- * JAVA : 1.7
- * 
+ * Author  : JumpJava.com
+ * JAVA    : 1.7
+ * Program : Write a Java program to test if an array contains a specific value. 
  * */
 
 public class FindSpecificValue {
