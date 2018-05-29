@@ -2,6 +2,7 @@ package com.jumpjava.array;
 /*
  * Author : JumpJava.com
  * JAVA : 1.7
+ * Program : . Write a Java program to sum values of an array.
  * */
 
 public class ArrayValueSum {
