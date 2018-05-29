@@ -23,13 +23,18 @@ public class AverageValueArrayElements {
 		double sum = 0;
 		double avg = 0;
 
-		for (int i = 0; i < inputArray.length; i++) {
+		if (array.length > 0) {
+			for (int i = 0; i < inputArray.length; i++) {
 
-			sum = sum + inputArray[i];
+				sum = sum + inputArray[i];
 
+			}
+
+			avg = sum / inputArray.length;
+
+		} else {
+			System.out.println("Array is empty");
 		}
-
-		avg = sum / inputArray.length;
 
 		return avg;
 

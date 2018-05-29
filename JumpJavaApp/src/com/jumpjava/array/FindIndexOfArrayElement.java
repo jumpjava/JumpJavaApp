@@ -18,9 +18,15 @@ public class FindIndexOfArrayElement {
 
 	public static void getIndexElementOfArray(int[] array) {
 
-		for (int i = 0; i < array.length; i++) {
+		if (array.length > 0) {
 
-			System.out.println("Index Of an Array Element : " + array[i] + " is : " + i);
+			for (int i = 0; i < array.length; i++) {
+
+				System.out.println("Index Of an Array Element : " + array[i] + " is : " + i);
+			}
+
+		} else {
+			System.out.println("Array is empty");
 		}
 
 	}

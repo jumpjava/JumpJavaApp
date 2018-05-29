@@ -18,12 +18,18 @@ public class ArrayValueSum {
 
 		int[] inputArray = array;
 		int sum = 0;
+		
+		if (array.length > 0) {
+			for (int i = 0; i < inputArray.length; i++) {
 
-		for (int i = 0; i < inputArray.length; i++) {
+				sum = sum + inputArray[i];
 
-			sum = sum + inputArray[i];
+			}
 
+		} else {
+			System.out.println("Array is empty");
 		}
+
 		return sum;
 
 	}
