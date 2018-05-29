@@ -3,7 +3,7 @@ package com.jumpjava.array;
 /*
  * Author : JumpJava.com
  * JAVA : 1.7
- * 
+ * Program : Write a Java program to calculate the average value of array elements.
  * */
 
 public class AverageValueArrayElements {
