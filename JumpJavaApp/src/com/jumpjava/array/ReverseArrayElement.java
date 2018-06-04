@@ -9,7 +9,9 @@ package com.jumpjava.array;
 public class ReverseArrayElement {
 
 	public static void main(String[] args) {
+		
 		int array[] = { 10, 46, 47, 20, 20, 52, 48, 36, 55, 95 };
+		
 		ReverseArrayElement.toReverseArray(array);
 	}
 
