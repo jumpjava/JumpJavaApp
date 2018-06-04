@@ -1,4 +1,10 @@
 package com.jumpjava.array;
+/*
+ * Author  : JumpJava.com
+ * JAVA    : 1.7
+ * Program : Write a java program to reverse an array without using an additional array?
+
+ * */
 
 import java.util.Arrays;
 
