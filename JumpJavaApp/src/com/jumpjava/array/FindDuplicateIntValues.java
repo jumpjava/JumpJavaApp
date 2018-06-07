@@ -3,7 +3,7 @@ package com.jumpjava.array;
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : Write a Java program to find the duplicate values of an array of integer values.Solution
+ * Program : Write a Java program to find duplicate values of an array of integer values.Solution
 
  * */
 
