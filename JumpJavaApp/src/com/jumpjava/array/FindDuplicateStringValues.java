@@ -16,7 +16,6 @@ public class FindDuplicateStringValues {
 	public static void main(String[] args) {
 		
 		String arr[] = { "Hello", "welcome", "to", "jump", "java", "!", "jump", "java", "is", "the", "best" };
-
 		Map<String, Integer> _duplicateString = FindDuplicateStringValues.getDuplicateIntValues(arr);
 		FindDuplicateStringValues.displayDuplicate(_duplicateString);
 
