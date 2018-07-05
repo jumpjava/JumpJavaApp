@@ -7,7 +7,7 @@ import java.util.Set;
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : Write a program to find out the duplicate characters in a string Array,and find the number of repetition.
+ * Program : 23.Write a program to find out the duplicate characters in a string Array,and find the number of repetition.
  * */
 
 public class FindDuplicateCharValues {
