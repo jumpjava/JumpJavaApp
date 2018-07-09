@@ -39,6 +39,7 @@ public class CommonElementFromThreeArray {
 
 		int[] inputArray = arr;
 		int tmp = 0;
+		
 		for (int i = 0; i < inputArray.length; i++) {
 
 			for (int j = i + 1; j < inputArray.length; j++) {
