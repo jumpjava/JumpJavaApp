@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 1.How to Print duplicate characters from String.
+ * Program : 1.How to Print duplicate characters from String
  * */
 
 package com.jumpjava.String;
