@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 17.Write a Java program to convert all the characters in a string to lower case.  
+ * Program : 18.Write a Java program to convert all the characters in a string to lower case.  
  * */
 package com.jumpjava.String;
 
