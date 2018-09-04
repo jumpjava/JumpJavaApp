@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 16.Write a java program to reverse each word of a given string?
+ * Program : 17.Write a java program to reverse each word of a given string?
   			   INPUT : I LOVE JUMP JAVA 
   			   OUTPUT: I EVOL PMUJ AVAJ 
  * */
