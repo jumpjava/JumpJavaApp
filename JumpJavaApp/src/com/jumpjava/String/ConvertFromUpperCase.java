@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 18.Write a Java program to convert all the characters in a string to Upper case.  
+ * Program : 19.Write a Java program to convert all the characters in a string to Upper case.  
  * */
 package com.jumpjava.String;
 
