@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 3.How to print the element of Singly Linked List in java.
+ * Program : 4.How to find the length of the Singly Linked List in java
  * */
 
 package com.jumpjava.ds.singlyLinkedList;
