@@ -12,6 +12,7 @@ public class HowToFindLengthSinglyLinkedList {
 
 		private int data;
 		private ListNode next;
+		
 
 		public ListNode(int data) {
 			this.data = data;
