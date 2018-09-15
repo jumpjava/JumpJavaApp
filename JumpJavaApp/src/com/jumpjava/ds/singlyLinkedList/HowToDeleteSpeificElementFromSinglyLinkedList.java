@@ -29,8 +29,20 @@ public class HowToDeleteSpeificElementFromSinglyLinkedList {
 
 		public static void delete(ListNode head, int element) {
 
-			// TODO need to write the delete function for specific element.
+			ListNode q = head;
+			ListNode p = head.next;
+			int d = element;
 
+			while (p.data != d) {
+				p = p.next;
+				q = q.next;
+			}
+			if (p.next == null) {
+				q.next = null;
+			} else {
+				q.next = p.next;
+				p.next = null;
+			}
 		}
 
 	}
@@ -49,7 +61,8 @@ public class HowToDeleteSpeificElementFromSinglyLinkedList {
 		third.next = fourth;
 
 		ListNode.display(head);
-		ListNode.delete(head, 13);
+		ListNode.delete(head, 13);// DO NOT PASS ARGUMENT AS HEAD
+		System.out.println();
 		ListNode.display(head);
 
 	}
