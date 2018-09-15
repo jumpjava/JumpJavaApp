@@ -53,20 +53,6 @@ public class HowToDeleteTheMiddleElemetFromSingelyLinkedList {
 			current.next = null;
 		}
 
-		public static void deleteForEvenNode(ListNode head, int first_index) {
-
-			ListNode previous = head;
-			int counter = 0;
-
-			while (counter < first_index - 1) {
-				counter = counter + 1;
-				previous = previous.next;
-			}
-
-			ListNode current = previous.next;
-			previous.next = current.next;
-			current.next = null;
-		}
 	}
 
 	public static void main(String[] args) {
@@ -86,8 +72,8 @@ public class HowToDeleteTheMiddleElemetFromSingelyLinkedList {
 		third.next = fourth;
 		fourth.next = fifth;
 		fifth.next = sixth;
-		/* Un-comment this you want to delete the node from Even linked list */
-		// sixth.next = seventh;
+		/* Comment this you want to delete the node from Odd linked list */
+		sixth.next = seventh;
 
 		int size = ListNode.size(head);
 
@@ -100,7 +86,7 @@ public class HowToDeleteTheMiddleElemetFromSingelyLinkedList {
 			int index = size / 2;
 
 			for (int i = 1; i <= 2; i++) {
-				ListNode.deleteForEvenNode(head, index - 1);
+				ListNode.delete(head, index - 1);
 			}
 			ListNode.display(head);
 			System.gc();
