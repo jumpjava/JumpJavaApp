@@ -53,19 +53,6 @@ public class HowToCreateDoublyLinkedList {
 
 	}
 
-	public void displayForward() {
-		if (head == null) {
-			return;
-		} else {
-			ListNode temp = head;
-			while (temp != null) {
-				System.out.print(temp.data + "=>");
-				temp = temp.next;
-			}
-			System.out.println(temp);
-		}
-	}
-
 	public void displayBackWord() {
 		if (tail == null) {
 			return;
@@ -87,10 +74,6 @@ public class HowToCreateDoublyLinkedList {
 		dll.insertLast(31);
 		dll.insertLast(41);
 		dll.insertLast(51);
-		System.out.println("Print the Element from Forward direction");
-		dll.displayForward();
-		System.out.println("Print the Element from Backword direction");
-		dll.displayBackWord();
 	}
 
 }
