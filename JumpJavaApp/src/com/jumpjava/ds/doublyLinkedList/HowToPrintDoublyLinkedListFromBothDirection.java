@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 4.How to print the element of Doubly Linked List from both direction in java.
+ * Program : 5.How to print the element of Doubly Linked List from both direction in java.
  * */
 
 package com.jumpjava.ds.doublyLinkedList;
