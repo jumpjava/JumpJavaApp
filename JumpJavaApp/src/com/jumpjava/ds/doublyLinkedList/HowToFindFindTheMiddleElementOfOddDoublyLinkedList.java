@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 7.How to Print the Middle element of a given Doubly Linked List which has total odd number of elements.Solutio
+ * Program : 7.How to Print the Middle element of a given Doubly Linked List which has total odd number of elements.
  * */
 
 package com.jumpjava.ds.doublyLinkedList;
