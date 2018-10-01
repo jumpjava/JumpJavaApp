@@ -1,7 +1,7 @@
 /*
  * Author  : JumpJava.com
  * JAVA    : 1.7
- * Program : 9.How to search the specific element in a given Doubly Linked List in java.
+ * Program : 10.How to search the specific element in a given Doubly Linked List in java.
  * */
 package com.jumpjava.ds.doublyLinkedList;
 
